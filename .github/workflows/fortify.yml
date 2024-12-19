@@ -18,13 +18,12 @@ name: Fortify AST Scan
 # Customize trigger events based on your DevSecOps process and/or policy
 on:
   push:
-    branches: [ "v5" ]
+  
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ "v5" ]
-  schedule:
+    branches:
     - cron: '41 22 * * 4'
-  workflow_dispatch:
+
 
 jobs:
   Fortify-AST-Scan:
@@ -41,8 +40,8 @@ jobs:
         uses: actions/checkout@v4
 
       # Java is required to run the various Fortify utilities. Ensuring proper version is installed on the runner.
-      - name: Setup Java
-        uses: actions/setup-java@v4
+      - name: 
+        uses: actions/help
         with:
           java-version: 17
           distribution: 'temurin'
@@ -59,7 +58,7 @@ jobs:
         env:
           ### Required configuration when integrating with Fortify on Demand
           FOD_URL: https://ams.fortify.com
-          FOD_TENANT: ${{secrets.FOD_TENANT}}
+          FOD_TENAN: ${{secrets.FOD_TENANT}}
           FOD_USER: ${{secrets.FOD_USER}}
           FOD_PASSWORD: ${{secrets.FOD_PAT}}
           ### Optional configuration when integrating with Fortify on Demand
