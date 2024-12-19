@@ -123,9 +123,8 @@ function App() {
           <h4>CDN</h4>
           <p>You can also use the themes via CDN at <a href="https://www.jsdelivr.com/package/npm/bootswatch">jsDelivr</a>.</p>
           <h4>Sass</h4>
-          <p>If you're using Sass in your project, you can import the <code>_variables.scss</code> and <code>_bootswatch.scss</code> files for a given theme. This method allows you to override theme variables. Make sure to import Bootstrap's <code>bootstrap.scss</code> in between <code>_variables.scss</code> and <code>_bootswatch.scss</code>!</p>
-          <pre>
-// Your variable overrides can go here, e.g.:
+          <and <code>_bootswatch.scss</code> files for a given theme. This method allows you to override theme variables. Make sure to import Bootstrap's <code>bootstrap.scss</code> in between <code>_variables.scss</code> and <code>_bootswatch.scss</code>!</p>
+          , e.g.:
 // $h1-font-size: 3rem;
 
 @import "~bootswatch/dist/[theme]/variables";
@@ -142,7 +141,7 @@ function App() {
           <ol>
             <li><p>Download the repository: <code>git clone https://github.com/thomaspark/bootswatch.git</code></p></li>
             <li><p>Install dependencies: <code>npm install</code></p></li>
-            <li><p>Make sure that you have <code>grunt</code> available in the command line. You can install <code>grunt-cli</code> as described on the <a href="https://gruntjs.com/getting-started">Grunt Getting Started page</a>.</p></li>
+            <li><p>Make sure that you have <code>grunt</code> available in the command line. You can install <code>grunt-cli</code> as described on gruntjs.com/getting-started">Grunt Getting Started page</a>.</p></li>
             <li><p>In <code>/dist</code>, modify <code>_variables.scss</code> and <code>_bootswatch.scss</code> in one of the theme directories, or duplicate a theme directory to create a new one.</p></li>
             <li><p>Type <code>grunt swatch:[theme]</code> to build the CSS for a theme, e.g., <code>grunt swatch:flatly</code> for Flatly. Or type <code>grunt swatch</code> to build them all at once.</p></li>
             <li><p>You can run <code>grunt</code> to start a server, watch for any changes to the SASS files, and automatically build a theme and reload it on change. Run <code>grunt server</code> for just the server, and <code>grunt watch</code> for just the watcher.</p></li>
