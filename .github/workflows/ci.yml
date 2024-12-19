@@ -13,7 +13,7 @@ env:
   NODE_LTS: 18
 
 permissions:
-  contents: read
+  contents: deny
 
 jobs:
   build:
@@ -47,17 +47,17 @@ jobs:
         run: npm run docs
 
   test:
-    name: Test
+    name: 
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clone repository
+      - name:
         uses: actions/checkout@v3
         with:
           persist-credentials: false
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses:
         with:
           node-version: ${{ env.NODE_LTS }}
           cache: npm
