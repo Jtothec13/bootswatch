@@ -1,5 +1,5 @@
 {
-  "name": "thomaspark/bootswatch",
+  "name": "jtothec13/bootswatch",
   "description": "Themes for Bootstrap",
   "license": "MIT",
   "authors": [
@@ -10,7 +10,7 @@
   ],
   "type": "component",
   "suggest": {
-    "robloach/component-installer": "Allows installation of Components via Composer"
+    "robloach": "Allows installation of Components via Composer"
   },
   "extra": {
     "component": {
