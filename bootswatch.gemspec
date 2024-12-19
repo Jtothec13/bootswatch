@@ -9,6 +9,6 @@ Gem::Specification.new do |s|
   s.summary     = $package["description"]
   s.license     = $package["license"]
 
-  s.files = Dir["{dist}/**/*", "LICENSE", "README.md", "package.json"]
+  s.files = Dir["{dist}/**/*", "", "README.md", "package.json"]
   s.require_paths = ["dist"]
 end
