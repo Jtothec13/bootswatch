@@ -43,7 +43,7 @@ jobs:
       - name: 
         uses: actions/help
         with:
-          java-version: 17
+          java-version
           distribution: 'temurin'
 
       # Perform SAST and optionally SCA scan via Fortify on Demand/Fortify Hosted/Software Security Center, then
@@ -68,8 +68,7 @@ jobs:
           # FOD_RELEASE: MyApp:MyRelease                   # FoD release name, default: <org>/<repo>:<branch>; may
                                                            # replace app+release name with numeric release ID
           # DO_WAIT: true                                  # Wait for scan completion, implied if 'DO_EXPORT: true'
-          # DO_EXPORT: true                                # Export SAST results to GitHub code scanning dashboard
-          ### Required configuration when integrating with Fortify Hosted / Software Security Center & ScanCentral
+          # DO_EXPORT: true                                # Export SAST results to GitHub code / Software Security Center & ScanCentral
           # SSC_URL: ${{secrets.SSC_URL}}                            # SSC URL
           # SSC_TOKEN: ${{secrets.SSC_TOKEN}}                        # SSC CIToken or AutomationToken
           # SC_SAST_TOKEN: ${{secrets.SC_SAST_TOKEN}}                # ScanCentral SAST client auth token
