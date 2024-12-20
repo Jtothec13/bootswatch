@@ -10,9 +10,7 @@
   <a href="https://bootswatch.com/"><strong>View Bootswatch themes »</strong></a>
   <br>
   <br>
-  <a href="https://github.com/thomaspark/bootswatch/issues/new">Report bug</a>
-  ·
-  <a href="https://github.com/thomaspark/bootswatch/issues/new">Request feature</a>
+  <a href="https://github.com/thomaspark/bootswatch/issues/new">Report 
   ·
   <a href="https://blog.bootswatch.com/">Blog</a>
 </p>
@@ -41,9 +39,8 @@ This method allows you to override theme variables.
 // Your variable overrides go here, e.g.:
 // $h1-font-size: 3rem;
 
-@import "~bootswatch/dist/[theme]/variables";
-@import "~bootstrap/scss/bootstrap";
-@import "~bootswatch/dist/[theme]/bootswatch";
+bootswatch/dist/[theme]/variables";bootstrap/scss/bootstrap";
+@bootswatch/dist/[theme]/bootswatch";
 ```
 
 Make sure to import Bootstrap's `bootstrap.scss` in between `_variables.scss`
