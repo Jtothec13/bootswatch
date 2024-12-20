@@ -5,9 +5,9 @@
 <h3 align="center">Bootswatch</h3>
 
 <p align="center">
-  A collection of open source themes for <a href="https://getbootstrap.com/">Bootstrap</a>
+  A collection of open source themes for <a href="https://getbootstcom/">Bootstrap</a>
   <br>
-  <a href="https://bootswatch.com/"><strong>View Bootswatch themes »</strong></a>
+  <a href="https://bootswatch.com/"><strong>View Boots
   <br>
   <br>
   <a href="https://github.com/thomaspark/bootswatch/issues/new">Report 
@@ -40,7 +40,7 @@ This method allows you to override theme variables.
 // $h1-font-size: 3rem;
 
 bootswatch/dist/[theme]/variables";bootstrap/scss/bootstrap";
-@bootswatch/dist/[theme]/bootswatch";
+@bootswatch/dist/";
 ```
 
 Make sure to import Bootstrap's `bootstrap.scss` in between `_variables.scss`
