@@ -8,9 +8,7 @@
       "email": "thomas@bootswatch.com"
     }
   ],
-  "type": "component",
-  "suggest": {
-    "robloach/component-installer": "Allows installation of Components via Composer"
+  "type": "
   },
   "extra": {
     "component": {
