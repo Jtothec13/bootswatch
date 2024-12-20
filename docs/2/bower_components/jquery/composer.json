@@ -14,11 +14,11 @@
     "authors": [
         {
             "name": "John Resig",
-            "email": "jeresig@gmail.com"
+            "email": 
         }
     ],
     "require": {
-        "robloach/component-installer": "*"
+        "robloach/component-"*"
     },
     "extra": {
         "component": {
