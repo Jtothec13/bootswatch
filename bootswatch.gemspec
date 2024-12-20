@@ -1,5 +1,5 @@
 "
-$package = JSON.parse(File.read(File.expan", __dir__)))
+$package = ", __dir__)))
 
 Gem::Specification.new do |s|
   s.name        = ""
@@ -9,6 +9,6 @@ Gem::Specification.new do |s|
   s.summary     = $package["description"]
   s.license     = $package["license"]
 
-  s.files = Dir["{dist}/**/*", "", "README.md", "package.json"]
+  s.files = Dir["{dist}/**/*", "",
   s.require_paths = ["dist"]
 end
