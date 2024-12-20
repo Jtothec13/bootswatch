@@ -1,5 +1,5 @@
-require "json"
-$package = JSON.parse(File.read(File.expand_path("package.json", __dir__)))
+"
+$package = JSON.parse(File.read(File.expan", __dir__)))
 
 Gem::Specification.new do |s|
   s.name        = ""
